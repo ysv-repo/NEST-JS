@@ -1,12 +1,11 @@
-import { Injectable,  LoggerService,  NotFoundException } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { User } from 'src/entities/user.entity';
-import { DataSource, Repository } from 'typeorm';
+import { ALL_USERS, GET_USER_BY_ID, GET_USERS_BY_IDS, PROCEDURE_WITH_PARAMETERS, PROCEDURE_WITHOUT_PARAMETERS } from 'src/queries/user-queries';
+import { Repository } from 'typeorm';
 import { UserDto } from './user.dto';
-import { ALL_USERS, GET_USER_BY_ID, GET_USERS_BY_IDS } from 'src/queries/user-queries';
 @Injectable()
 export class UsersService {
- 
   constructor(
     @InjectRepository(User)
     private usersRepository: Repository<User>,
@@ -49,6 +48,15 @@ export class UsersService {
   getUserByIds(ids:string):  PromiseLike<User[]> {
     const idsArray = ids.split(',');
     return this.usersRepository.query(GET_USERS_BY_IDS,[idsArray]);
+  }
+
+  getAllUsersByProcedure(): User[] | PromiseLike<User[]> {
+    return this.usersRepository.query(PROCEDURE_WITHOUT_PARAMETERS);
+  }
+
+
+  getAllUsersByProcedureParam(id: number): User[] | PromiseLike<User[]> {
+    return this.usersRepository.query(PROCEDURE_WITH_PARAMETERS,[id]);
   }
   
 }

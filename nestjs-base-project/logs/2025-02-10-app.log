@@ -1,0 +1,232 @@
+2025-02-10 21:48:47 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:18:47.092Z                          
+**************************************************************
+    
+2025-02-10 21:48:47 info: AppController {/}:
+2025-02-10 21:48:47 info: Mapped {/, GET} route
+2025-02-10 21:48:47 info: UsersController {/users}:
+2025-02-10 21:48:47 info: Mapped {/users/create-user, POST} route
+2025-02-10 21:48:47 info: Mapped {/users/allUsers, GET} route
+2025-02-10 21:48:47 info: Mapped {/users/update-user/:id, PUT} route
+2025-02-10 21:48:47 info: Mapped {/users/allUsersByQuery, GET} route
+2025-02-10 21:48:47 info: Mapped {/users/getUserByIds/:ids, GET} route
+2025-02-10 21:48:47 info: Mapped {/users/getAllUsersByProcedure, GET} route
+2025-02-10 21:48:47 info: Mapped {/users/getAllUsersByProcedureParam/:id, GET} route
+2025-02-10 21:48:47 info: Nest application successfully started
+2025-02-10 21:53:24 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:23:24.497Z                          
+**************************************************************
+    
+2025-02-10 21:53:24 info: AppController {/}:
+2025-02-10 21:53:24 info: Mapped {/, GET} route
+2025-02-10 21:53:24 info: UsersController {/users}:
+2025-02-10 21:53:24 info: Mapped {/users/create-user, POST} route
+2025-02-10 21:53:24 info: Mapped {/users/allUsers, GET} route
+2025-02-10 21:53:24 info: Mapped {/users/update-user/:id, PUT} route
+2025-02-10 21:53:24 info: Mapped {/users/allUsersByQuery, GET} route
+2025-02-10 21:53:24 info: Mapped {/users/getUserByIds/:ids, GET} route
+2025-02-10 21:53:24 info: Mapped {/users/getAllUsersByProcedure, GET} route
+2025-02-10 21:53:24 info: Mapped {/users/getAllUsersByProcedureParam/:id, GET} route
+2025-02-10 21:53:24 info: Nest application successfully started
+2025-02-10 21:53:26 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:23:26.981Z                          
+**************************************************************
+    
+2025-02-10 21:53:38 error: Token is invalid or expired - {"statusCode":401,"timestamp":"2025-02-10T16:23:38.802Z","path":"/users/getAllUsersByProcedureParam/1","message":"Token is invalid or expired"}
+2025-02-10 21:54:12 error: Token is invalid or expired - {"statusCode":401,"timestamp":"2025-02-10T16:24:12.961Z","path":"/users/getAllUsersByProcedureParam/1","message":"Token is invalid or expired"}
+2025-02-10 21:57:47 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:27:47.205Z                          
+**************************************************************
+    
+2025-02-10 21:57:47 info: AppController {/}:
+2025-02-10 21:57:47 info: Mapped {/, GET} route
+2025-02-10 21:57:47 info: UsersController {/users}:
+2025-02-10 21:57:47 info: Mapped {/users/create-user, POST} route
+2025-02-10 21:57:47 info: Mapped {/users/allUsers, GET} route
+2025-02-10 21:57:47 info: Mapped {/users/update-user/:id, PUT} route
+2025-02-10 21:57:47 info: Mapped {/users/allUsersByQuery, GET} route
+2025-02-10 21:57:47 info: Mapped {/users/getUserByIds/:ids, GET} route
+2025-02-10 21:57:47 info: Mapped {/users/getAllUsersByProcedure, GET} route
+2025-02-10 21:57:47 info: Mapped {/users/getAllUsersByProcedureParam/:id, GET} route
+2025-02-10 21:57:47 info: Nest application successfully started
+2025-02-10 21:59:21 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:29:21.899Z                          
+**************************************************************
+    
+2025-02-10 21:59:21 info: AppController {/}:
+2025-02-10 21:59:21 info: Mapped {/, GET} route
+2025-02-10 21:59:21 info: UsersController {/users}:
+2025-02-10 21:59:21 info: Mapped {/users/create-user, POST} route
+2025-02-10 21:59:21 info: Mapped {/users/allUsers, GET} route
+2025-02-10 21:59:21 info: Mapped {/users/update-user/:id, PUT} route
+2025-02-10 21:59:21 info: Mapped {/users/allUsersByQuery, GET} route
+2025-02-10 21:59:21 info: Mapped {/users/getUserByIds/:ids, GET} route
+2025-02-10 21:59:21 info: Mapped {/users/getAllUsersByProcedure, GET} route
+2025-02-10 21:59:21 info: Mapped {/users/getAllUsersByProcedureParam/:id, GET} route
+2025-02-10 21:59:21 info: Nest application successfully started
+2025-02-10 21:59:24 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:29:24.821Z                          
+**************************************************************
+    
+2025-02-10 21:59:49 error: Token is invalid or expired - {"statusCode":401,"timestamp":"2025-02-10T16:29:49.361Z","path":"/users/getAllUsersByProcedureParam/1","message":"Token is invalid or expired"}
+2025-02-10 22:02:58 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:32:58.818Z                          
+**************************************************************
+    
+2025-02-10 22:02:58 info: AppController {/}:
+2025-02-10 22:02:58 info: Mapped {/, GET} route
+2025-02-10 22:02:58 info: UsersController {/users}:
+2025-02-10 22:02:58 info: Mapped {/users/create-user, POST} route
+2025-02-10 22:02:58 info: Mapped {/users/allUsers, GET} route
+2025-02-10 22:02:58 info: Mapped {/users/update-user/:id, PUT} route
+2025-02-10 22:02:58 info: Mapped {/users/allUsersByQuery, GET} route
+2025-02-10 22:02:58 info: Mapped {/users/getUserByIds/:ids, GET} route
+2025-02-10 22:02:58 info: Mapped {/users/getAllUsersByProcedure, GET} route
+2025-02-10 22:02:58 info: Mapped {/users/getAllUsersByProcedureParam/:id, GET} route
+2025-02-10 22:02:58 info: Nest application successfully started
+2025-02-10 22:03:00 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:33:00.979Z                          
+**************************************************************
+    
+2025-02-10 22:05:38 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:35:38.149Z                          
+**************************************************************
+    
+2025-02-10 22:05:38 info: AppController {/}:
+2025-02-10 22:05:38 info: Mapped {/, GET} route
+2025-02-10 22:05:38 info: UsersController {/users}:
+2025-02-10 22:05:38 info: Mapped {/users/create-user, POST} route
+2025-02-10 22:05:38 info: Mapped {/users/allUsers, GET} route
+2025-02-10 22:05:38 info: Mapped {/users/update-user/:id, PUT} route
+2025-02-10 22:05:38 info: Mapped {/users/allUsersByQuery, GET} route
+2025-02-10 22:05:38 info: Mapped {/users/getUserByIds/:ids, GET} route
+2025-02-10 22:05:38 info: Mapped {/users/getAllUsersByProcedure, GET} route
+2025-02-10 22:05:38 info: Mapped {/users/getAllUsersByProcedureParam/:id, GET} route
+2025-02-10 22:05:38 info: Nest application successfully started
+2025-02-10 22:07:07 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:37:07.004Z                          
+**************************************************************
+    
+2025-02-10 22:07:07 info: AppController {/}:
+2025-02-10 22:07:07 info: Mapped {/, GET} route
+2025-02-10 22:07:07 info: UsersController {/users}:
+2025-02-10 22:07:07 info: Mapped {/users/create-user, POST} route
+2025-02-10 22:07:07 info: Mapped {/users/allUsers, GET} route
+2025-02-10 22:07:07 info: Mapped {/users/update-user/:id, PUT} route
+2025-02-10 22:07:07 info: Mapped {/users/allUsersByQuery, GET} route
+2025-02-10 22:07:07 info: Mapped {/users/getUserByIds/:ids, GET} route
+2025-02-10 22:07:07 info: Mapped {/users/getAllUsersByProcedure, GET} route
+2025-02-10 22:07:07 info: Mapped {/users/getAllUsersByProcedureParam/:id, GET} route
+2025-02-10 22:07:07 info: Nest application successfully started
+2025-02-10 22:07:10 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:37:10.850Z                          
+**************************************************************
+    
+2025-02-10 22:14:10 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:44:10.920Z                          
+**************************************************************
+    
+2025-02-10 22:14:10 info: AppController {/}:
+2025-02-10 22:14:10 info: Mapped {/, GET} route
+2025-02-10 22:14:10 info: UsersController {/users}:
+2025-02-10 22:14:10 info: Mapped {/users/create-user, POST} route
+2025-02-10 22:14:10 info: Mapped {/users/allUsers, GET} route
+2025-02-10 22:14:10 info: Mapped {/users/update-user/:id, PUT} route
+2025-02-10 22:14:10 info: Mapped {/users/allUsersByQuery, GET} route
+2025-02-10 22:14:10 info: Mapped {/users/getUserByIds/:ids, GET} route
+2025-02-10 22:14:10 info: Mapped {/users/getAllUsersByProcedure, GET} route
+2025-02-10 22:14:10 info: Mapped {/users/getAllUsersByProcedureParam/:id, GET} route
+2025-02-10 22:14:10 info: Nest application successfully started
+2025-02-10 22:17:46 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:47:46.069Z                          
+**************************************************************
+    
+2025-02-10 22:17:46 info: AppController {/}:
+2025-02-10 22:17:46 info: Mapped {/, GET} route
+2025-02-10 22:17:46 info: UsersController {/users}:
+2025-02-10 22:17:46 info: Mapped {/users/create-user, POST} route
+2025-02-10 22:17:46 info: Mapped {/users/allUsers, GET} route
+2025-02-10 22:17:46 info: Mapped {/users/update-user/:id, PUT} route
+2025-02-10 22:17:46 info: Mapped {/users/allUsersByQuery, GET} route
+2025-02-10 22:17:46 info: Mapped {/users/getUserByIds/:ids, GET} route
+2025-02-10 22:17:46 info: Mapped {/users/getAllUsersByProcedure, GET} route
+2025-02-10 22:17:46 info: Mapped {/users/getAllUsersByProcedureParam/:id, GET} route
+2025-02-10 22:17:46 info: Nest application successfully started

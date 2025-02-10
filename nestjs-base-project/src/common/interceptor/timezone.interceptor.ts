@@ -12,7 +12,6 @@ export class TimeZoneInterceptor implements NestInterceptor {
   intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
     return next.handle().pipe(
       map((data) => {
-        // Automatically adjust all dates in the response data
         if (data && data.timestamp) {
           data.timestamp = this.timeZoneService.convertToTimeZone(new Date(data.timestamp));
         }

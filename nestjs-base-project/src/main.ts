@@ -16,7 +16,19 @@ async function bootstrap() {
     app.enableCors();
     app.useGlobalPipes(new ValidationPipe());
   }
-  logger.log('App has started');
-  await app.listen(3000);
+
+  const banner = `
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: ${new Date().toISOString()}                          
+**************************************************************
+    `;
+
+  logger.log(banner);
+  await app.listen(Number(process.env.APP_PORT) || 3000);
 }
 bootstrap();

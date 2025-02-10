@@ -1,0 +1,21 @@
+2025-02-10 21:36:28 info: 
+**************************************************************
+                   CONTROL SAMPLE MANAGEMET                 
+                           (MES)                           
+                                                             
+  System Status: Running                                    
+  Version: 1.0.0                                            
+  Date: 2025-02-10T16:06:28.289Z                          
+**************************************************************
+    
+2025-02-10 21:36:28 info: AppController {/}:
+2025-02-10 21:36:28 info: Mapped {/, GET} route
+2025-02-10 21:36:28 info: UsersController {/users}:
+2025-02-10 21:36:28 info: Mapped {/users/create-user, POST} route
+2025-02-10 21:36:28 info: Mapped {/users/allUsers, GET} route
+2025-02-10 21:36:28 info: Mapped {/users/update-user/:id, PUT} route
+2025-02-10 21:36:28 info: Mapped {/users/allUsersByQuery, GET} route
+2025-02-10 21:36:28 info: Mapped {/users/getUserByIds/:ids, GET} route
+2025-02-10 21:36:28 info: Mapped {/users/getAllUsersByProcedure, GET} route
+2025-02-10 21:36:28 info: Mapped {/users/getAllUsersByProcedureParam/:id, GET} route
+2025-02-10 21:36:28 info: Nest application successfully started

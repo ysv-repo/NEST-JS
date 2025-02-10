@@ -26,42 +26,33 @@ export class WinstonLoggerService implements LoggerService {
         info: 'green',
         http: 'magenta',
         verbose: 'cyan',
-        debug: 'blue',
+        debug: 'blue', 
         silly: 'grey',
       },
-    };
-
-    // Ensure the log directory exists and has proper permissions
-    const logDirectory = path.join(__dirname, 'logs');
+    }; 
+    const logDirectory = path.join(__dirname,'../../../', 'logs');
     const logFilePath = path.join(logDirectory, '%DATE%-app.log');
-
-    // Create the log directory if it doesn't exist
     if (!fs.existsSync(logDirectory)) {
-      fs.mkdirSync(logDirectory, { recursive: true }); // Creating the directory if it doesn't exist
+      fs.mkdirSync(logDirectory, { recursive: true }); 
       console.log(`Log directory created at ${logDirectory}`);
     }
-
-    // Initialize the logger with Winston
     this.logger = winston.createLogger({
       levels: logLevels.levels,
       transports: [
-        // Console transport
         new winston.transports.Console({
-          level: 'debug', // All logs from 'debug' and above will be shown
+          level: 'debug', 
           format: winston.format.combine(
             winston.format.colorize(),
             winston.format.simple(),
           ),
         }),
 
-        // File transport with daily log rotation
         new DailyRotateFile({
-          filename: logFilePath, // Rotating file path
+          filename: logFilePath, 
           datePattern: 'YYYY-MM-DD',
-          level: 'debug', // Ensure that 'debug' and all higher levels are logged to the file
+          level: 'debug', 
           format: winston.format.combine(
             winston.format.timestamp({
-              // Using moment-timezone to format the timestamp in IST
               format: () => moment().tz('Asia/Kolkata').format('YYYY-MM-DD HH:mm:ss'),
             }),
             winston.format.printf(({ timestamp, level, message }) => {
@@ -75,24 +66,24 @@ export class WinstonLoggerService implements LoggerService {
     winston.addColors(logLevels.colors);
   }
 
-  // Implement required methods from NestJS LoggerService
-  log(message: string) {
+  log(message: any) {
     this.logger.info(message);
   }
 
-  error(message: string, trace: string) {
+  error(message: string, trace: any) {
     this.logger.error(`${message} - ${trace}`);
   }
+  
 
-  warn(message: string) {
+  warn(message: any) {
     this.logger.warn(message);
   }
 
-  debug(message: string) {
+  debug(message: any) {
     this.logger.debug(message);
   }
 
-  verbose(message: string) {
+  verbose(message: any) {
     this.logger.verbose(message);
   }
 }
