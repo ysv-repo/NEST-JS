@@ -35,7 +35,7 @@ export class TokenValidationInterceptor implements NestInterceptor {
   verifyToken(authToken: string): any {
     try {
     const secretKey = Buffer.from(this.SECRET_KEY, 'base64'); // Decode the secret key
-      return jwt.verify(authToken, secretKey, , { algorithms: ['HS384']});
+      return jwt.verify(authToken, secretKey, { algorithms: ['HS384']});
     } catch (error) {
       throw new UnauthorizedException('Invalid credentials');
     }
